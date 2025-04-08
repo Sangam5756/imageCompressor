@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖼️ What is This?
 
-## Getting Started
+[Image Compressor](https://compressit.sangammundhe.site/) is a **free online tool** that helps you **compress and resize images** easily.  
+You just upload an image, choose how much you want to reduce it, and download the smaller version.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# ❓ Why Do We Need This?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sometimes, websites or apps require images (like profile photos, ID proofs, or documents) to be **under a specific file size**—for example, under 200KB.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📸 Mobile users often upload large photos directly from their camera.
+- 📄 Some government or form portals have strict size limits.
+- 🚀 Large images can slow down websites and use more server space.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This tool helps by **reducing file size while keeping the image clear**, making it easy to upload and use anywhere.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# ✅ Advantages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔻 **Reduce Image Size:** Makes files smaller without much quality loss.
+- ⚡ **Faster Load Times:** Smaller images load faster on websites.
+- 📁 **Saves Storage:** Great for apps with many users or limited storage.
+- 💡 **No Software Needed:** Everything works directly in the browser.
+- 🔒 **Privacy-Friendly:** You control your images—no need to upload them to third-party apps.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Let me know if you'd like a one-liner summary or tagline to add at the top of your README!
