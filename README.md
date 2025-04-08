@@ -1,5 +1,6 @@
 # 🖼️ What is This?
 
+
 [Image Compressor](https://compressit.sangammundhe.site/) is a **free online tool** that helps you **compress and resize images** easily.  
 You just upload an image, choose how much you want to reduce it, and download the smaller version.
 
@@ -25,6 +26,3 @@ This tool helps by **reducing file size while keeping the image clear**, making 
 - 💡 **No Software Needed:** Everything works directly in the browser.
 - 🔒 **Privacy-Friendly:** You control your images—no need to upload them to third-party apps.
 
----
-
-Let me know if you'd like a one-liner summary or tagline to add at the top of your README!
