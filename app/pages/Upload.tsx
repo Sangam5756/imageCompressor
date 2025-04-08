@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image';
+
 import { useState, useEffect } from 'react';
 import { FaCloudUploadAlt, FaImage, FaDownload } from 'react-icons/fa';
 
@@ -42,7 +42,7 @@ export default function Home() {
 
     setLoading(true);
     setError(null);
-    setPreview(null); 
+    setPreview(null);
     setProgress(0);
 
     const formData = new FormData();
@@ -130,7 +130,10 @@ export default function Home() {
                 Processing:
               </label>
               <div className="mt-2 rounded-md shadow-md overflow-hidden relative">
-                <Image src={processingPreview} alt="Processing Preview" className="w-full object-cover blur-sm" style={{ filter: 'blur(5px)' }} />
+                <img
+
+                  src={processingPreview}
+                  alt="Processing Preview" className="w-full object-cover blur-sm" style={{ filter: 'blur(5px)' }} />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <svg className="w-16 h-16">
                     <circle
@@ -226,7 +229,10 @@ export default function Home() {
             <div className="mt-6 pt-6 border-t border-gray-200">
               <h3 className="text-xl font-semibold text-gray-900">Processed Image:</h3>
               <div className="mt-2 rounded-md shadow-md overflow-hidden">
-                <Image src={preview} alt="Processed Preview" className="w-full object-cover" />
+                <img
+                  src={preview} // prepend the correct data URI type
+
+                  alt="Processed Preview" className="w-full object-cover" />
               </div>
               <a
                 href={preview}
