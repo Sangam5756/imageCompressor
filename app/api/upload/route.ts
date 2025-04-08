@@ -177,11 +177,19 @@ export async function POST(req: NextRequest) {
         "Content-Disposition": "attachment; filename=processed-image.jpg",
       },
     });
-  } catch (err) {
-    console.error("Error during image processing:", err);
-    return NextResponse.json(
-      { error: `Server error: ${err.message}` },
-      { status: 500 }
-    );
+  } catch (err: unknown) {
+    if (err instanceof Error) {
+      console.error("Error during image processing:", err);
+      return NextResponse.json(
+        { error: `Server error: ${err.message}` },
+        { status: 500 }
+      );
+    } else {
+      console.error("Unknown error during image processing:", err);
+      return NextResponse.json(
+        { error: "Unknown error occurred during image processing." },
+        { status: 500 }
+      );
+    }
   }
 }
