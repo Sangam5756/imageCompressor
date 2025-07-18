@@ -8,7 +8,7 @@ interface UploadFormsProps {
   onImageChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-export default function ({
+export default function UploadForm({
   loading,
   percentage,
   onPercentageChange,
